@@ -3,7 +3,7 @@ function reduce(max, init, f)
   acc = init
 
   while i <= max do
-    acc = acc + f(i)
+    acc = f(acc, i)
     i = i + 1
   end
 

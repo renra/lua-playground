@@ -8,8 +8,8 @@ if max == nil or init == nil then
   return 1
 end
 
-function third_power(i)
-  return i * i * i
+function adder(a, b)
+  return a + b
 end
 
-print(reduce(max, init, third_power))
+print(reduce(max, init, adder))
